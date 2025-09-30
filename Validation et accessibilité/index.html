@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>contactez vous</legend>
+        </fieldset>
+    </form>
+        <label for="nom">nom</label>
+        <input type="text" id="nom" name="nom" aria-label="nom complet" required><br>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" aria-label="adress email" required><br>
+        <label for="tel"> téléphone</label>
+        <input type="tel" id="tel" name="tel"pattern="[0-9]{10}" title="10 chiffres attendus"aria-label="numero de téléphone"><br>
+<label for="message">message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+<button type="submit"> envoyer</button>
+    
+</body>
+</html>
